@@ -1,11 +1,12 @@
 {
   "name": "simple-html-tag",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and fast tag function for safe html es6 literals.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
+  "runkitExampleFilename": "runkitExample.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acorcutt/simple-html-tag.git"

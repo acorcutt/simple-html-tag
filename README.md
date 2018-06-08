@@ -1,6 +1,8 @@
 # simple-html-tag
 A simple and fast tag function for safe html es6 literals.
 
+[Runkit Example](https://npm.runkit.com/simple-html-tag)
+
 ## Details
 
 This simple function makes working with html literals easier, variables are escaped, but arrays are automatically joined and unescaped to allow for easy html list output. Whitespace is not altered and no additional tags are required to escape or unescape the output.
