@@ -24,3 +24,8 @@ To force the unescape of a variable just wrap in an array...
 ```js
 html `<div>${[`<script>alert('This is not escaped')</script>`]}</div>`
 ```
+
+Double escape \ to output escape chars...
+```js
+html `<div>${[`<script>alert('This is not escaped\\nI'm a newline \${Escaped placeholder tag}')</script>`]}</div>`
+```
